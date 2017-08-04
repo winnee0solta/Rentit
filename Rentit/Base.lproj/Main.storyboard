@@ -116,7 +116,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Bhh-XM-keg"/>
                     <connections>
-                        <outlet property="EmialField" destination="bnK-M7-Ipx" id="Ocp-DY-xH9"/>
+                        <outlet property="EmailField" destination="bnK-M7-Ipx" id="AHZ-rn-HJM"/>
                         <outlet property="PasswordFileld" destination="K5Z-M8-N4m" id="Dkn-5T-hST"/>
                         <segue destination="3eu-wO-xLf" kind="show" identifier="gotohome" id="sIq-PP-0eg"/>
                     </connections>
@@ -230,7 +230,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="EmailField" destination="M3b-CD-4Kk" id="Cuy-E6-0Bu"/>
+                        <outlet property="EmailField" destination="M3b-CD-4Kk" id="YDg-BD-bZn"/>
                         <outlet property="PasswordField" destination="6hd-7Z-uCf" id="E2J-kf-Ljl"/>
                         <segue destination="3eu-wO-xLf" kind="show" identifier="gotohome" id="y7a-ZO-liW"/>
                     </connections>
