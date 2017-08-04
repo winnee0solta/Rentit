@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1AFE4A843A39E02ECD700AE6 /* libPods-Rentit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6123A24625EBB29F033450 /* libPods-Rentit.a */; };
 		ED064DE51F081B1300159256 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED064DE41F081B1300159256 /* GoogleService-Info.plist */; };
+		ED333B601F348D03009F8F21 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED333B5F1F348D03009F8F21 /* SignupViewController.swift */; };
 		EDF986E31F07E94E007EE14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF986E21F07E94E007EE14A /* AppDelegate.swift */; };
 		EDF986E51F07E94E007EE14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF986E41F07E94E007EE14A /* ViewController.swift */; };
 		EDF986E81F07E94E007EE14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF986E61F07E94E007EE14A /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		481F5848EC43A8EBF87E2D65 /* Pods-Rentit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rentit/Pods-Rentit.debug.xcconfig"; sourceTree = "<group>"; };
 		73D92D59F7BEC227E30230D1 /* Pods-Rentit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rentit/Pods-Rentit.release.xcconfig"; sourceTree = "<group>"; };
 		ED064DE41F081B1300159256 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED333B5F1F348D03009F8F21 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		EDF986DF1F07E94E007EE14A /* Rentit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rentit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF986E21F07E94E007EE14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF986E41F07E94E007EE14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				ED064DE41F081B1300159256 /* GoogleService-Info.plist */,
 				EDF986E21F07E94E007EE14A /* AppDelegate.swift */,
 				EDF986E41F07E94E007EE14A /* ViewController.swift */,
+				ED333B5F1F348D03009F8F21 /* SignupViewController.swift */,
 				EDF986E61F07E94E007EE14A /* Main.storyboard */,
 				EDF986E91F07E94E007EE14A /* Assets.xcassets */,
 				EDF986EB1F07E94E007EE14A /* LaunchScreen.storyboard */,
@@ -338,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED333B601F348D03009F8F21 /* SignupViewController.swift in Sources */,
 				EDF986E51F07E94E007EE14A /* ViewController.swift in Sources */,
 				EDF986E31F07E94E007EE14A /* AppDelegate.swift in Sources */,
 			);
