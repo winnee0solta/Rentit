@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import Rentit
 
 class RentitTests: XCTestCase {

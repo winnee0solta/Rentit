@@ -9,10 +9,13 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseDatabase
 
 class SignupViewController: UIViewController {
 
    
+    var ref: DatabaseReference!
+    
     
     @IBOutlet weak var EmailField: UITextField!
     @IBOutlet weak var PasswordField: UITextField!
@@ -21,7 +24,7 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        ref = Database.database().reference()
         // Do any additional setup after loading the view.
     }
 
@@ -39,7 +42,10 @@ class SignupViewController: UIViewController {
                 // ...
                 if let u = user
                 {
-                    self.performSegue(withIdentifier: "gotohome", sender:self)
+                    let userid :String = (user?.uid)!
+                    
+                    self.ref.child("users").child(userid).setValue(["email":email,"password":password ])
+                    self.performSegue(withIdentifier: "gotoprofileentery", sender:self)
                 }
                 
             }

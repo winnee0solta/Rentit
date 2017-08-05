@@ -9,7 +9,7 @@
 import UIKit
 
 import Firebase
-import FirebaseAuth
+
 
 class ViewController: UIViewController {
 
@@ -21,6 +21,22 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        Auth.auth().addStateDidChangeListener{auth,user in
+            
+            if user != nil {
+                //user is signed in
+                
+    
+                self.performSegue(withIdentifier: "gotohome", sender:self)
+                
+            }
+            
+            
+        }
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

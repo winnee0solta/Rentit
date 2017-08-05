@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD0FEA33EBA22998EB741303 /* libPods-Rentit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D222D0B611AAF1B84F2DCA85 /* libPods-Rentit.a */; };
+		5917377A2FCE4ABEA34A15BC /* libPods-Rentit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFCC6436AD5BB51097BA1B /* libPods-Rentit.a */; };
 		ED064DE51F081B1300159256 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED064DE41F081B1300159256 /* GoogleService-Info.plist */; };
 		ED333B601F348D03009F8F21 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED333B5F1F348D03009F8F21 /* SignupViewController.swift */; };
+		ED333B621F34DCA5009F8F21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED333B611F34DCA5009F8F21 /* HomeViewController.swift */; };
+		ED333B641F34E094009F8F21 /* SignupDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED333B631F34E094009F8F21 /* SignupDetailsController.swift */; };
+		ED333B661F356193009F8F21 /* MyProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED333B651F356193009F8F21 /* MyProfileController.swift */; };
 		EDF986E31F07E94E007EE14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF986E21F07E94E007EE14A /* AppDelegate.swift */; };
 		EDF986E51F07E94E007EE14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF986E41F07E94E007EE14A /* ViewController.swift */; };
 		EDF986E81F07E94E007EE14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF986E61F07E94E007EE14A /* Main.storyboard */; };
@@ -37,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B8AE1CA6524F2C3D737ABCF /* Pods-Rentit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rentit/Pods-Rentit.debug.xcconfig"; sourceTree = "<group>"; };
-		D222D0B611AAF1B84F2DCA85 /* libPods-Rentit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rentit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CFCC6436AD5BB51097BA1B /* libPods-Rentit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rentit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749026C7273DFCCD405596A1 /* Pods-Rentit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rentit/Pods-Rentit.release.xcconfig"; sourceTree = "<group>"; };
+		E412E609E0F3AABC471E59DE /* Pods-Rentit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rentit/Pods-Rentit.debug.xcconfig"; sourceTree = "<group>"; };
 		ED064DE41F081B1300159256 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED333B5F1F348D03009F8F21 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		ED333B611F34DCA5009F8F21 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ED333B631F34E094009F8F21 /* SignupDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupDetailsController.swift; sourceTree = "<group>"; };
+		ED333B651F356193009F8F21 /* MyProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileController.swift; sourceTree = "<group>"; };
 		EDF986DF1F07E94E007EE14A /* Rentit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rentit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF986E21F07E94E007EE14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF986E41F07E94E007EE14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +61,6 @@
 		EDF986FE1F07E94E007EE14A /* RentitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF987021F07E94E007EE14A /* RentitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentitUITests.swift; sourceTree = "<group>"; };
 		EDF987041F07E94E007EE14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F00C4EBAF73282438E9E5962 /* Pods-Rentit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rentit/Pods-Rentit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0FEA33EBA22998EB741303 /* libPods-Rentit.a in Frameworks */,
+				5917377A2FCE4ABEA34A15BC /* libPods-Rentit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,19 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		534D7A9539AF132F5C35AB87 /* Pods */ = {
+		5EE2AE5A3A232235DBB53921 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B8AE1CA6524F2C3D737ABCF /* Pods-Rentit.debug.xcconfig */,
-				F00C4EBAF73282438E9E5962 /* Pods-Rentit.release.xcconfig */,
+				E412E609E0F3AABC471E59DE /* Pods-Rentit.debug.xcconfig */,
+				749026C7273DFCCD405596A1 /* Pods-Rentit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B1262FE92A1FCD07EFD84370 /* Frameworks */ = {
+		D7DBF231585FF3FEA8E03257 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D222D0B611AAF1B84F2DCA85 /* libPods-Rentit.a */,
+				39CFCC6436AD5BB51097BA1B /* libPods-Rentit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +113,8 @@
 				EDF986F61F07E94E007EE14A /* RentitTests */,
 				EDF987011F07E94E007EE14A /* RentitUITests */,
 				EDF986E01F07E94E007EE14A /* Products */,
-				534D7A9539AF132F5C35AB87 /* Pods */,
-				B1262FE92A1FCD07EFD84370 /* Frameworks */,
+				5EE2AE5A3A232235DBB53921 /* Pods */,
+				D7DBF231585FF3FEA8E03257 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,7 +134,10 @@
 				ED064DE41F081B1300159256 /* GoogleService-Info.plist */,
 				EDF986E21F07E94E007EE14A /* AppDelegate.swift */,
 				EDF986E41F07E94E007EE14A /* ViewController.swift */,
+				ED333B611F34DCA5009F8F21 /* HomeViewController.swift */,
 				ED333B5F1F348D03009F8F21 /* SignupViewController.swift */,
+				ED333B631F34E094009F8F21 /* SignupDetailsController.swift */,
+				ED333B651F356193009F8F21 /* MyProfileController.swift */,
 				EDF986E61F07E94E007EE14A /* Main.storyboard */,
 				EDF986E91F07E94E007EE14A /* Assets.xcassets */,
 				EDF986EB1F07E94E007EE14A /* LaunchScreen.storyboard */,
@@ -162,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF987071F07E94E007EE14A /* Build configuration list for PBXNativeTarget "Rentit" */;
 			buildPhases = (
-				67D09E2CAB489D7D29D7E2FC /* [CP] Check Pods Manifest.lock */,
+				44D98E94F8FB97BA00FA2940 /* [CP] Check Pods Manifest.lock */,
 				EDF986DB1F07E94E007EE14A /* Sources */,
 				EDF986DC1F07E94E007EE14A /* Frameworks */,
 				EDF986DD1F07E94E007EE14A /* Resources */,
-				73EADFA8CA924C3A2CF42BD4 /* [CP] Embed Pods Frameworks */,
-				2E56F803CCA5087184BF8960 /* [CP] Copy Pods Resources */,
+				CAD1E306E18C85DD7E10EDB1 /* [CP] Embed Pods Frameworks */,
+				DF45DAFEEDF3F22E390D0BDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,22 +298,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E56F803CCA5087184BF8960 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rentit/Pods-Rentit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67D09E2CAB489D7D29D7E2FC /* [CP] Check Pods Manifest.lock */ = {
+		44D98E94F8FB97BA00FA2940 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,7 +313,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		73EADFA8CA924C3A2CF42BD4 /* [CP] Embed Pods Frameworks */ = {
+		CAD1E306E18C85DD7E10EDB1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,6 +328,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rentit/Pods-Rentit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DF45DAFEEDF3F22E390D0BDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rentit/Pods-Rentit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -342,8 +351,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED333B601F348D03009F8F21 /* SignupViewController.swift in Sources */,
+				ED333B661F356193009F8F21 /* MyProfileController.swift in Sources */,
 				EDF986E51F07E94E007EE14A /* ViewController.swift in Sources */,
 				EDF986E31F07E94E007EE14A /* AppDelegate.swift in Sources */,
+				ED333B621F34DCA5009F8F21 /* HomeViewController.swift in Sources */,
+				ED333B641F34E094009F8F21 /* SignupDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +507,7 @@
 		};
 		EDF987081F07E94E007EE14A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B8AE1CA6524F2C3D737ABCF /* Pods-Rentit.debug.xcconfig */;
+			baseConfigurationReference = E412E609E0F3AABC471E59DE /* Pods-Rentit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Rentit/Info.plist;
@@ -508,7 +520,7 @@
 		};
 		EDF987091F07E94E007EE14A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00C4EBAF73282438E9E5962 /* Pods-Rentit.release.xcconfig */;
+			baseConfigurationReference = 749026C7273DFCCD405596A1 /* Pods-Rentit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Rentit/Info.plist;
