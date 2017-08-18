@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 import FirebaseAuth
+import SVProgressHUD
 
 class SignupDetailsController: UIViewController {
 
@@ -37,13 +38,17 @@ class SignupDetailsController: UIViewController {
         
         if let name = UsernameField.text ,let address = AddressField.text , let phone = PhonenoField.text
         {
-            
-            
+            //todo : need to use async
+            SVProgressHUD.show(withStatus: "Creating Account")
             let userid :String = (Auth.auth().currentUser?.uid)!
             self.ref.child("users").child(userid).updateChildValues(["username":name,"address":address,"phone":phone ])
+            SVProgressHUD.dismiss()
             self.performSegue(withIdentifier: "gotohome", sender:self)
             
           
+            
+        }
+        else{
             
         }
         
